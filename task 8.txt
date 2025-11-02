@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b = 0;
+
+    cout << "Ededi daxil et: ";
+    cin >> a;
+
+    while (a > 0) {
+        int reqem = a % 10;        
+        b = b * 10 + reqem;  
+        a = a / 10;                
+    }
+
+    cout << "Ededin tersi: " << b;
+
+    return 0;
+}

@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n, eded, cem = 0;
+
+    cout << "daxil edilen eded sayi; ";
+    cin >> n;
+
+    for (int i = 1; i <= n; i++) {
+        cout << i << ". ededi daxil et: ";
+        cin >> eded;
+        cem += eded;
+    }
+
+    cout << "Ededlerin cemi: " << cem;
+
+    return 0;

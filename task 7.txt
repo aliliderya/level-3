@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a;
+    int cem = 0;
+
+    cout << "Ededleri daxil et : ";
+    cin >> a; 
+
+    while (a != 0) {
+        cem = cem + a;
+        cin >> a; 
+    }
+
+    cout << "Ededlerin cemi: " << cem;
+
+    return 0;
+}

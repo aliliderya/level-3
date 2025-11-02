@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    int fakt = 1;
+
+    cout << "Eded daxil et: ";
+    cin >> n;
+
+    for (int i = 1; i <= n; i++) {
+        fakt = fakt * i;
+    }
+
+    cout << "Faktorial: " << fakt;
+
+    return 0;
+}
+2
